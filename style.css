@@ -1,0 +1,110 @@
+.spiner{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin:10px ;
+  border-right: 5px solid red;
+    border-left:5px solid red;
+   animation:spine 2s linear infinite;
+ 
+}
+@keyframes spine{
+from{
+transform: rotate(0deg);
+}
+to{
+    transform: rotate(360deg);
+}
+
+}
+.spiner2{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin:10px ;
+  border:  5px solid bisque;
+border-right: 5px solid red;
+  border-left:5px solid red;
+ animation:spine 2s linear infinite;
+
+}
+@keyframes spine{
+from{
+transform: rotate(0deg);
+}
+to{
+  transform: rotate(360deg);
+}
+
+
+}
+
+.spiner3{
+  position: relative;
+}
+.sp3-1{
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  margin:10px ;
+  border:  5px solid transparent;
+   top: 70px;
+   left: 50px;
+  border-left:5px solid red;
+ animation:spine 1s linear infinite;
+position: absolute;
+}
+@keyframes spine{
+from{
+transform: rotate(0deg);
+}
+to{
+  transform: rotate(360deg);
+}
+
+}
+.sp3-2{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin:10px ;
+  border:  5px solid transparent;
+  top: 60px;
+  left: 40px;
+  border-left:5px solid red;
+ animation:spine 2s linear infinite;
+ position: absolute;
+}
+
+@keyframes spine{
+from{
+transform: rotate(0deg);
+}
+to{
+  transform: rotate(360deg);
+}
+
+}
+.sp3-3{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin:10px ;
+  border:  5px solid transparent;
+  top: 50px;
+  left: 30px;
+  border-left:5px solid red;
+ animation:spine 3s linear infinite;
+ position: absolute;
+}
+
+@keyframes spine{
+from{
+transform: rotate(0deg);
+}
+to{
+  transform: rotate(360deg);
+}
+
+}
+
